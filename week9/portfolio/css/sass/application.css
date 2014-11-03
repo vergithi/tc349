@@ -1,0 +1,80 @@
+/* line 1, ../../sass/components/_header.scss */
+.header {
+  background: #ffffff;
+  margin: 0;
+  text-align: center;
+  height: 500px;
+}
+/* line 6, ../../sass/components/_header.scss */
+.header img {
+  padding-top: 100px;
+}
+
+/* line 1, ../../sass/components/_mediagrid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #ffffff;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 0;
+  height: 200px;
+}
+/* line 9, ../../sass/components/_mediagrid.scss */
+.media-grid li {
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 20%;
+}
+/* line 15, ../../sass/components/_mediagrid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+/* line 1, ../../sass/components/_hero.scss */
+.hero {
+  padding: 50px;
+  height: 400px;
+  background: #593c64;
+}
+/* line 5, ../../sass/components/_hero.scss */
+.hero h1 {
+  padding: 40px;
+}
+/* line 8, ../../sass/components/_hero.scss */
+.hero a {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+/* line 13, ../../sass/components/_hero.scss */
+.hero #herobutton {
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 1em;
+}
+
+/* line 1, ../../sass/components/_extrainfo.scss */
+.extrainfo {
+  padding: 20px;
+  height: 600px;
+  background: #d0c8d3;
+}
+/* line 5, ../../sass/components/_extrainfo.scss */
+.extrainfo img {
+  float: left;
+  padding: 20px;
+}
+
+/* line 6, ../../sass/application.scss */
+body {
+  background: #ffffff;
+}
+
+/* line 10, ../../sass/application.scss */
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+}
