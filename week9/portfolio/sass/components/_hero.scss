@@ -11,9 +11,10 @@
     margin-top: 50px;
   	}
   #herobutton{
-  	border-radius: 5px;
+  	@include border-radius(5px);
   	background-color: #ffffff;
   	text-decoration: none;
   	padding: 1em;
+    @include box-shadow;
 	}
 }

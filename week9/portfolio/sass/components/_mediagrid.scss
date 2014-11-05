@@ -11,9 +11,18 @@
     float: left;
     height: 200px;
     width: 20%;
+    @include transition-property(background);
+    @include transition-duration(1s);
+  }
+
+  li:hover{
+    background: #ffffff;
   }
   li:nth-child(even){
     background: #846f8d;
+  li:nth-child(even):hover{
+    background: #ffffff;
+  }
   }
 }
 
