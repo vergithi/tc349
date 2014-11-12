@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercise 5</title>
+</head>
+
+<body>
+	<h2>Rubric</h2>
+	<form action="" method="post" id="rubric">
+		<fieldset>
+			<div>
+				<label for="exercises">Exercises</label>
+				<input type="number" name="exercises" id="exercises"value ="0"min="0" required>
+			</div>
+			<div>
+				<label for="mps">Mini-projects</label>
+				<input type="number" name="mps" id="mps"value ="0"min="0" required>
+			</div>
+			<div>
+				<label for="final">Final</label>
+				<input type="number" name="final" id="final"value ="0"min="0" required>
+			</div>
+		</fieldset>
+	</form>
+	<h2>Grades</h2>
+	<form action="" method="post" id="grades">
+		<fieldset>
+			<p>_________Name_____________Type____________Grade_________</p>
+			<div>
+				<label>1.</label>
+				<input type="text"	name="exercise1" id="exercise1" value="Exercise 1" required>
+				<select name="type1" id="type1">
+					<option value="exercises">Exercises</option>
+					<option value="miniprojects">Mini-Projects</option>
+					<option value="final">Final</option>
+				</select>
+				<input type="number" name="grade1" id="grade1"value ="0"min="0" required>
+			</div>
+			<div>
+				<label>2.</label>
+				<input type="text"	name="exercise2" id="exercise2" value="Exercise 2" required>
+				<select name="type2" id="type2">
+					<option value="exercises">Exercises</option>
+					<option value="miniprojects">Mini-Projects</option>
+					<option value="final">Final</option>
+				</select>
+				<input type="number" name="grade2" id="grade2"value ="0"min="0" required>
+			</div>
+			<div>
+				<label>3.</label>
+				<input type="text"	name="exercise3" id="exercise3" value="Exercise 3" required>
+				<select name="type3" id="type3">
+					<option value="exercises">Exercises</option>
+					<option value="miniprojects">Mini-Projects</option>
+					<option value="final">Final</option>
+				</select>
+				<input type="number" name="grade3" id="grade3"value ="0"min="0" required>
+			</div>
+			<div>
+				<label>4.</label>
+				<input type="text"	name="exercise4" id="exercise4" value="Exercise 4" required>
+				<select name="type4" id="type4">
+					<option value="exercises">Exercises</option>
+					<option value="miniprojects">Mini-Projects</option>
+					<option value="final">Final</option>
+				</select>
+				<input type="number" name="grade4" id="grade4"value ="0"min="0" required>
+			</div>
+			<div><input type="submit" value="Calculate" id="submit"></div>
+		</fieldset>
+	</form>
+	<label>Total</label><input type="text" name="total" id="total" disabled>
+	<script src="calculate.js"></script>
+</body>
+</html>

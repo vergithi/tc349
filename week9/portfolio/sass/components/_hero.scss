@@ -1,7 +1,7 @@
 .hero{
   padding:50px;
   height: 400px;
-  background: #593c64;
+  background: #578A96;
   h1{
   	padding: 40px;
   	}
@@ -16,5 +16,10 @@
   	text-decoration: none;
   	padding: 1em;
     @include box-shadow;
+    @include transition-property(background);
+    @include transition-duration(1s);
 	}
+  #herobutton:hover{
+    background-color: #58C9E9;
+  }
 }
