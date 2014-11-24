@@ -1,0 +1,24 @@
+.cta{
+	height: 25em;
+	background: #578A96;
+  h1{
+  	padding: 40px;
+  	}
+  a{
+  	float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+  	}
+  #ctabutton{
+  	@include border-radius(5px);
+  	background-color: #ffffff;
+  	text-decoration: none;
+  	padding: 1em;
+    @include box-shadow;
+    @include transition-property(background);
+    @include transition-duration(1s);
+	}
+  #ctabutton:hover{
+    background-color: #58C9E9;
+  }
+}
