@@ -1,42 +1,91 @@
 /* line 1, ../../sass/components/_navigate.scss */
 .navigate {
-  background: #421152;
-  margin: 0;
+  background: #DF0101;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  width: 60%;
 }
-/* line 4, ../../sass/components/_navigate.scss */
+/* line 7, ../../sass/components/_navigate.scss */
 .navigate li {
-  display: inline;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+/* line 11, ../../sass/components/_navigate.scss */
+.navigate li a {
   text-decoration: none;
-  background: #AAAAAA;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+}
+/* line 20, ../../sass/components/_navigate.scss */
+.navigate li a:hover {
+  background: #ffffff;
+  color: #DF0101;
 }
 
 /* line 1, ../../sass/components/_header.scss */
 .header {
-  background: #AAAAAA;
+  width: 60%;
+  background: #ffffff;
+  height: 155px;
+  margin: 0 auto;
+}
+/* line 6, ../../sass/components/_header.scss */
+.header a {
+  display: inline;
+}
+/* line 9, ../../sass/components/_header.scss */
+.header .title {
+  display: inline;
+}
+/* line 11, ../../sass/components/_header.scss */
+.header .title h1 {
+  display: inline;
+  margin-top: 5em;
+  text-align: center;
 }
 
 /* line 1, ../../sass/components/_cta.scss */
 .cta {
-  height: 25em;
-  background: #578A96;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../../img/elf2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-/* line 4, ../../sass/components/_cta.scss */
-.cta h1 {
+/* line 10, ../../sass/components/_cta.scss */
+.cta .ctatext {
+  width: 60%;
+  margin: auto;
+  padding: 5em;
+}
+/* line 14, ../../sass/components/_cta.scss */
+.cta .ctatext h2 {
+  margin: 1em;
+}
+/* line 17, ../../sass/components/_cta.scss */
+.cta .ctatext h1 {
   padding: 40px;
+  margin: 0;
 }
-/* line 7, ../../sass/components/_cta.scss */
-.cta a {
-  float: right;
-  margin-right: 50px;
+/* line 21, ../../sass/components/_cta.scss */
+.cta .ctatext a {
+  display: inline-block;
+  margin-left: 50px;
   margin-top: 50px;
 }
-/* line 12, ../../sass/components/_cta.scss */
-.cta #ctabutton {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
+/* line 26, ../../sass/components/_cta.scss */
+.cta .ctatext #ctabutton {
+  display: inline-block;
+  margin-left: 70%;
   background-color: #ffffff;
   text-decoration: none;
   padding: 1em;
@@ -51,32 +100,181 @@
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
+  color: #000000;
 }
-/* line 21, ../../sass/components/_cta.scss */
-.cta #ctabutton:hover {
-  background-color: #58C9E9;
+/* line 37, ../../sass/components/_cta.scss */
+.cta .ctatext #ctabutton:hover {
+  background-color: #DF0101;
 }
 
 /* line 1, ../../sass/components/_newssection.scss */
 .newssection {
   height: 20em;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
 }
-/* line 3, ../../sass/components/_newssection.scss */
+/* line 6, ../../sass/components/_newssection.scss */
+.newssection h1 {
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid;
+}
+/* line 11, ../../sass/components/_newssection.scss */
 .newssection .news {
   float: left;
-  margin-left: 2.5em;
-  background: #ffffff;
-  width: 20em;
-  height: 15em;
+  width: 33.33%;
+  height: 18em;
+  background: #000000;
+  position: relative;
+}
+/* line 18, ../../sass/components/_newssection.scss */
+.newssection img {
+  display: block;
+  max-height: 100%;
+  margin: auto;
+}
+/* line 24, ../../sass/components/_newssection.scss */
+.newssection .newstext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.72);
+  color: #000000;
+  opacity: 0;
+}
+/* line 25, ../../sass/components/_newssection.scss */
+.newssection .newstext h2 {
+  text-align: center;
+}
+/* line 37, ../../sass/components/_newssection.scss */
+.newssection .news:hover .newstext {
+  opacity: 1;
 }
 
-/* line 7, ../../sass/application.scss */
-.wrap {
-  width: 70em;
+/* line 1, ../../sass/components/_info.scss */
+.info {
+  padding-top: 3em;
+  height: 320px;
+  width: 60%;
   margin: auto;
+}
+/* line 6, ../../sass/components/_info.scss */
+.info img {
+  width: 33%;
+  float: left;
+}
+
+/* line 1, ../../sass/components/_callendar.scss */
+.callendar {
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* line 1, ../../sass/components/_aboutus.scss */
+.aboutus {
+  width: 60%;
+  margin: auto;
+}
+/* line 4, ../../sass/components/_aboutus.scss */
+.aboutus .aboutpic {
+  text-align: center;
+}
+
+/* line 1, ../../sass/components/_footer.scss */
+.footer {
+  height: 75px;
+}
+/* line 3, ../../sass/components/_footer.scss */
+.footer img {
+  float: right;
+}
+/* line 6, ../../sass/components/_footer.scss */
+.footer .foottext {
+  width: 60%;
+  margin: auto;
+  border-top: 2px;
+  border-top-style: solid;
+  border-top-color: #DF0101;
+}
+
+/* line 1, ../../sass/components/_classlist.scss */
+.classlist {
+  width: 60%;
+  margin: 20px auto;
+}
+/* line 4, ../../sass/components/_classlist.scss */
+.classlist ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 7, ../../sass/components/_classlist.scss */
+.classlist ul li {
+  box-shadow: 2px 2px 1px #000000;
+  height: 295px;
+}
+/* line 11, ../../sass/components/_classlist.scss */
+.classlist ul li h2 {
+  display: block;
+  color: white;
+  background: #DF0101;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+/* line 18, ../../sass/components/_classlist.scss */
+.classlist ul li h3 {
+  text-decoration: underline;
+}
+/* line 21, ../../sass/components/_classlist.scss */
+.classlist ul li img {
+  max-height: 262px;
+  float: left;
+  margin-top: 0;
+  padding-right: 15px;
 }
 
 /* line 12, ../../sass/application.scss */
+.calheader {
+  text-align: center;
+  margin: 50px;
+}
+
+/* line 17, ../../sass/application.scss */
+.classintro {
+  width: 60%;
+  margin: auto;
+}
+
+/* line 21, ../../sass/application.scss */
+.wrap {
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+}
+
+/* line 27, ../../sass/application.scss */
+.ctaholder {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+}
+
+/* line 35, ../../sass/application.scss */
+#dummy {
+  margin-top: 75%;
+}
+
+/* line 39, ../../sass/application.scss */
+.navbar {
+  height: 32px;
+  background: #DF0101;
+}
+
+/* line 44, ../../sass/application.scss */
 body {
-  background: #AAAAAA;
+  background: #aaaaaa;
 }

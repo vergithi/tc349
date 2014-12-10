@@ -3,12 +3,44 @@
 @import 'components/header.scss';
 @import 'components/cta.scss';
 @import 'components/newssection.scss';
+@import 'components/info.scss';
+@import 'components/callendar.scss';
+@import 'components/aboutus.scss';
+@import 'components/footer.scss';
+@import 'components/classlist.scss';
 
-.wrap{
-	width: 70em;
+.calheader{
+	text-align: center;
+	margin: 50px;
+}
+
+.classintro{
+	width: 60%;
 	margin: auto;
+}
+.wrap{
+	width: 100%;
+	margin: auto;
+	background: #ffffff;
+}
+
+.ctaholder{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-height: 500px;
+
+}
+
+#dummy{
+	margin-top: 75%
+}
+
+.navbar{
+	height: 32px;
+	background: #DF0101;
 }
 
 body{
-	background: #AAAAAA;
+	background: #aaaaaa;
 }

@@ -1,24 +1,41 @@
 .cta{
-	height: 25em;
-	background: #578A96;
-  h1{
-  	padding: 40px;
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	background: url(../../img/elf2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .ctatext{
+    width: 60%;
+    margin: auto;
+    padding:5em;
+    h2{
+      margin: 1em;
+    }
+    h1{
+    	padding: 40px;
+      margin: 0;
+    	}
+    a{
+      display: inline-block;
+      margin-left: 50px;
+      margin-top: 50px;
+    	}
+    #ctabutton{
+      display: inline-block;
+      margin-left: 70%;
+    	background-color: #ffffff;
+    	text-decoration: none;
+    	padding: 1em;
+      @include box-shadow;
+      @include transition-property(background);
+      @include transition-duration(1s);
+      color: #000000;
   	}
-  a{
-  	float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-  	}
-  #ctabutton{
-  	@include border-radius(5px);
-  	background-color: #ffffff;
-  	text-decoration: none;
-  	padding: 1em;
-    @include box-shadow;
-    @include transition-property(background);
-    @include transition-duration(1s);
-	}
-  #ctabutton:hover{
-    background-color: #58C9E9;
+    #ctabutton:hover{
+      background-color: #DF0101;
+    }
   }
 }

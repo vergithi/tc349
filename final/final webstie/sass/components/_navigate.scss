@@ -1,9 +1,25 @@
 .navigate{
-	background: #421152;
-	margin: 0;
+	background: #DF0101;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+	width: 60%;
 	li{
-		display: inline;
-		text-decoration: none;
-		background: #AAAAAA;
+		float: left;
+		width: 20%;
+		text-align: center;
+		a{
+			text-decoration: none;
+			color: #ffffff;
+			font-weight: bold;
+			padding: 0 10px;
+			height: 32px;
+			line-height: 32px;
+			display: block;
+		}
+		a:hover{
+			background: #ffffff;
+			color: #DF0101;
+		}
 	}
 }
