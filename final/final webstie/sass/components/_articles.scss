@@ -1,4 +1,4 @@
-.classlist{
+.articles{
 	width:1200px;
 	margin: 20px auto;
 	ul{
@@ -9,6 +9,7 @@
 			height:295px;
 
 			h2{
+				padding-left: 5px;
 				display: block;
 				color: white;
 				background: #DF0101;
@@ -23,7 +24,7 @@
 				float: left;
 				margin-top: 0;
 				padding-right: 15px;
+			}
 		}
-	}
 	}
 }

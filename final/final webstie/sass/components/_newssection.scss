@@ -1,6 +1,6 @@
 .newssection{
 	height: 20em;
-	width: 60%;
+	width: 1200px;
 	margin: auto;
 	padding-bottom: 20px;
 	h1{
@@ -10,9 +10,9 @@
 	}
 	.news{
 		float: left;
-		width: 33.33%;
+		width: 400px;
 		height: 18em;
-		background:#000000;
+		background:white;
 		position: relative;
 	}
 	img{
@@ -24,6 +24,13 @@
 	.newstext{
 		h2{
 			text-align: center;
+		}
+		h3{
+			padding: 9px;
+		}
+		.putright{
+			float: right;
+			padding: 9px;
 		}
 			position: absolute;
 	  		top: 0;
