@@ -133,9 +133,10 @@
 .newssection img {
   display: block;
   max-height: 100%;
+  max-width: 100%;
   margin: auto;
 }
-/* line 24, ../../sass/components/_newssection.scss */
+/* line 25, ../../sass/components/_newssection.scss */
 .newssection .newstext {
   position: absolute;
   top: 0;
@@ -146,20 +147,20 @@
   color: #000000;
   opacity: 0;
 }
-/* line 25, ../../sass/components/_newssection.scss */
+/* line 26, ../../sass/components/_newssection.scss */
 .newssection .newstext h2 {
   text-align: center;
 }
-/* line 28, ../../sass/components/_newssection.scss */
+/* line 29, ../../sass/components/_newssection.scss */
 .newssection .newstext h3 {
   padding: 9px;
 }
-/* line 31, ../../sass/components/_newssection.scss */
+/* line 32, ../../sass/components/_newssection.scss */
 .newssection .newstext .putright {
   float: right;
   padding: 9px;
 }
-/* line 44, ../../sass/components/_newssection.scss */
+/* line 45, ../../sass/components/_newssection.scss */
 .newssection .news:hover .newstext {
   opacity: 1;
 }
@@ -304,7 +305,7 @@ body {
   background: #aaaaaa;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   /* line 59, ../../sass/application.scss */
   .header {
     width: 100%;
@@ -389,36 +390,37 @@ body {
 
   /* line 132, ../../sass/application.scss */
   .newssection {
+    text-align: center;
     height: 60em;
     width: 100%;
   }
-  /* line 135, ../../sass/application.scss */
+  /* line 136, ../../sass/application.scss */
   .newssection .news {
-    width: 360px;
+    width: 100%;
   }
 
-  /* line 139, ../../sass/application.scss */
+  /* line 140, ../../sass/application.scss */
   .info {
     height: auto;
     width: 100%;
     text-align: center;
   }
-  /* line 144, ../../sass/application.scss */
+  /* line 145, ../../sass/application.scss */
   .info img {
     display: none;
   }
 
-  /* line 148, ../../sass/application.scss */
+  /* line 149, ../../sass/application.scss */
   .footer {
     height: 75px;
   }
-  /* line 150, ../../sass/application.scss */
+  /* line 151, ../../sass/application.scss */
   .footer .foottext {
     width: 100%;
     text-align: center;
   }
 
-  /* line 155, ../../sass/application.scss */
+  /* line 156, ../../sass/application.scss */
   .gcal {
     border: 0;
     width: 360px;
@@ -427,16 +429,16 @@ body {
     scrolling: no;
   }
 
-  /* line 163, ../../sass/application.scss */
+  /* line 164, ../../sass/application.scss */
   .callendar {
     width: 100%;
   }
 
-  /* line 166, ../../sass/application.scss */
+  /* line 167, ../../sass/application.scss */
   .articles {
     width: 100%;
   }
-  /* line 168, ../../sass/application.scss */
+  /* line 169, ../../sass/application.scss */
   .articles img {
     display: none;
   }

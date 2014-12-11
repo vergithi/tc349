@@ -55,7 +55,7 @@
 body{
 	background: #aaaaaa;
 }
-@media (max-width: 480px){
+@media (max-width: 600px){
 	.header{
 	width: 100%;
 	height: auto;
@@ -130,10 +130,11 @@ body{
   }
 }
 .newssection{
+	text-align: center;
 	height: 60em;
 	width: 100%;
 	.news{
-		width: 360px;
+		width: 100%;
 	}
 }
 .info{
